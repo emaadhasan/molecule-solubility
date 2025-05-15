@@ -4,7 +4,7 @@ This project applies machine learning to predict the solubility of molecules usi
 
 ## 🧪 Dataset Overview
 
-The dataset contains **800 molecules**, each described by 4 chemical features used to predict solubility.
+The dataset contains **800 molecules**, each described by **4** chemical features used to predict solubility.
 
 ### Target Variable
 - `logS`: Logarithm of aqueous solubility (regression target)
@@ -15,16 +15,16 @@ The dataset contains **800 molecules**, each described by 4 chemical features us
 - `NumRotatableBonds`: Number of rotatable bonds
 - `AromaticProportion`: Proportion of atoms that are aromatic
 
-#### Data Processing
+## Data Processing
 - Features and target variable are separated.
 - Dataset is split into training and testing subsets.
 
-#### Model Building
+## Model Building
 - **Linear Regression**
 - **Random Forest**
 - **Gradient Boosting**
 
-#### Evaluation
+## Evaluation
 - Models are compared using MAE, RMSE, and R² scores.
 - Visualization techniques are used to understand correlation 
 
@@ -46,10 +46,15 @@ The dataset contains **800 molecules**, each described by 4 chemical features us
 
 ## How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/emaadhasan/molecule-solubility.git
-   cd molecule-solubility
-2. Open the notebook:
-   Use Google Colab or Jupyter Notebook
-   Run the ipynb file
+Clone the repository:
+  ```bash
+  git clone https://github.com/emaadhasan/molecule-solubility.git
+  cd molecule-solubility
+
+OR
+
+1. Visit [Google Colab](https://colab.research.google.com)
+2. Click **File → Open Notebook**
+3. Go to the **GitHub** tab
+4. Paste this URL: https://github.com/emaadhasan/molecule-solubility
+5. Select `Solubility.ipynb` and click **Open**
