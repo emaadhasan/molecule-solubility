@@ -6,10 +6,10 @@ This project applies machine learning to predict the solubility of molecules usi
 
 The dataset contains **800 molecules**, each described by **4** chemical features used to predict solubility.
 
-### Target Variable
+## Target Variable
 - `logS`: Logarithm of aqueous solubility (regression target)
 
-### Feature Columns
+## Feature Columns
 - `MolLogP`: Octanol-water partition coefficient (logP)
 - `MolWt`: Molecular weight of the molecule
 - `NumRotatableBonds`: Number of rotatable bonds
