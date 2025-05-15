@@ -1,6 +1,6 @@
 # Molecule Solubility Prediction
 
-This project uses machine learning to predict the solubility of molecules based on molecular descriptors.
+This project uses machine learning to predict the solubility of molecules based on molecular descriptors, including log P, weight, aromatic proportions, and number of rotatable bonds. 
 
 ## Project Overview
 
@@ -19,11 +19,11 @@ This notebook explores various regression models to estimate molecular solubilit
 
 #### Evaluation
 - Models are compared using MAE, RMSE, and R² scores.
-- Visualization techniques are used to understand feature importance and correlation.
+- Visualization techniques are used to understand correlation. 
 
 ## Features
 - Data preprocessing and visualization
-- Feature selection and correlation analysis
+- Correlation analysis
 - Model training with:
   - Random Forest
   - Gradient Boosting
