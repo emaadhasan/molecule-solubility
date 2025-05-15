@@ -1,12 +1,19 @@
 # Molecule Solubility Prediction
 
-This project uses machine learning to predict the solubility of molecules based on molecular descriptors, including log P, weight, aromatic proportions, and number of rotatable bonds. 
+This project applies machine learning to predict the solubility of molecules using a dataset of molecular descriptors. 
 
-## Project Overview
+## 🧪 Dataset Overview
 
-### **Solubility of Molecules**
+The dataset contains **800 molecules**, each described by 4 chemical features used to predict solubility.
 
-This notebook explores various regression models to estimate molecular solubility using selected features from a chemical dataset.
+### Target Variable
+- `logS`: Logarithm of aqueous solubility (regression target)
+
+### Feature Columns
+- `MolLogP`: Octanol-water partition coefficient (logP)
+- `MolWt`: Molecular weight of the molecule
+- `NumRotatableBonds`: Number of rotatable bonds
+- `AromaticProportion`: Proportion of atoms that are aromatic
 
 #### Data Processing
 - Features and target variable are separated.
@@ -19,7 +26,7 @@ This notebook explores various regression models to estimate molecular solubilit
 
 #### Evaluation
 - Models are compared using MAE, RMSE, and R² scores.
-- Visualization techniques are used to understand correlation. 
+- Visualization techniques are used to understand correlation 
 
 ## Features
 - Data preprocessing and visualization
@@ -43,3 +50,6 @@ This notebook explores various regression models to estimate molecular solubilit
    ```bash
    git clone https://github.com/emaadhasan/molecule-solubility.git
    cd molecule-solubility
+2. Open the notebook:
+   Use Google Colab or Jupyter Notebook
+   Run the ipynb file
