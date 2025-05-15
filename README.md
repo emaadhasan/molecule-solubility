@@ -46,15 +46,15 @@ The dataset contains **800 molecules**, each described by **4** chemical feature
 
 ## How to Run
 
-Clone the repository:
-  ```bash
-  git clone https://github.com/emaadhasan/molecule-solubility.git
-  cd molecule-solubility ```
-  
-OR
-
 1. Visit [Google Colab](https://colab.research.google.com)
 2. Click **File → Open Notebook**
 3. Go to the **GitHub** tab
 4. Paste this URL: https://github.com/emaadhasan/molecule-solubility
 5. Select `Solubility.ipynb` and click **Open**
+
+OR
+
+Clone the repository:
+  ```bash
+  git clone https://github.com/emaadhasan/molecule-solubility.git
+  cd molecule-solubility ```
