@@ -49,8 +49,8 @@ The dataset contains **800 molecules**, each described by **4** chemical feature
 Clone the repository:
   ```bash
   git clone https://github.com/emaadhasan/molecule-solubility.git
-  cd molecule-solubility
-
+  cd molecule-solubility ```
+  
 OR
 
 1. Visit [Google Colab](https://colab.research.google.com)
