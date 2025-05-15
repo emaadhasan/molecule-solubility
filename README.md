@@ -52,9 +52,9 @@ The dataset contains **800 molecules**, each described by **4** chemical feature
 4. Paste this URL: https://github.com/emaadhasan/molecule-solubility
 5. Select `Solubility.ipynb` and click **Open**
 
-OR
+  OR
 
-Clone the repository:
-  ```bash
-  git clone https://github.com/emaadhasan/molecule-solubility.git
-  cd molecule-solubility ```
+  Clone the repository:
+    ```bash
+    git clone https://github.com/emaadhasan/molecule-solubility.git
+    cd molecule-solubility ```
