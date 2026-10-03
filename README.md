@@ -1,5 +1,7 @@
 # Molecule Solubility Prediction
 
+My first machine learning project, built while learning scikit-learn, following a tutorial by Data Professor.
+
 This project uses machine learning to predict the aqueous solubility of molecules from four simple molecular descriptors, comparing a linear model against two tree-based ensemble models.
 
 ## 🧪 Dataset Overview
